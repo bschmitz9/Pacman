@@ -1,0 +1,150 @@
+.container{
+    position: relative;
+    background-color: black;
+    height: 900px;
+    width: 900px;
+}
+
+#score{
+    background-color: yellow;
+    position: absolute;
+    top:900px;
+    left:0px;
+    height:100px;
+    width: 900px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+
+/*A brick is for 0*/
+.brick{
+    background-color: blue;
+    position: absolute;
+    height:90px;
+    width:90px;
+}
+
+/*A space is for 1*/
+.coin{
+    background-image: url('img/coin.png');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position:absolute;
+}
+
+/*A space is for 2*/
+.space{
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position:absolute;
+}
+
+/*A cherry is for 3*/
+.cherry{
+    background-image: url('img/cherry.jpeg');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position:absolute;
+}
+
+/*beginning image for pacman*/
+.pacman{
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position:absolute;
+}
+
+/*image for when pacman is moving to the right*/
+.pacman-right{
+    background-image: url('img/pacman.gif');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position:absolute;
+}
+
+/*image for when pacman is moving to the left*/
+.pacman-left{
+    background-image: url('img/pacman.gif');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+/*image for when pacman is moving up*/
+.pacman-up{
+    background-image: url('img/pacman.gif');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+/*image for when pacman is moving down*/
+.pacman-down{
+    background-image: url('img/pacman.gif');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/*red ghost*/
+.red_ghost{
+    background-image: url('img/red_ghost.png');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+}
+
+/*blue ghost*/
+.blue_ghost{
+    background-image: url('img/blue_ghost.png');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+}
+
+.orange_ghost{
+    background-image: url('img/orange_ghost.jpeg');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+}
+
+.purple_ghost{
+    background-image: url('img/purple_ghost.jpeg');
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+    position: absolute;
+}
+
+
+
